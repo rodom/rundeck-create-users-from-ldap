@@ -26,4 +26,5 @@ Usage
         --ldap-bind-dn cn=readonly,ou=Roles,o=foobar \
         --ldap-bind-password t0ps3kr3t \
         --ldap-search-base ou=Users,o=foobar \
+        --ldap-filter (objectClass=*) \
         --java-classpath /var/lib/rundeck/exp/webapp/WEB-INF/lib/h2-1.4.193.jar
